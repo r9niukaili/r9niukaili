@@ -1,0 +1,113 @@
+.translatte1{
+     animation: translatte1 1s linear;
+ }
+.translatte2{
+    animation: translatte2 1s linear 1s;
+}
+.translatte3{
+    animation: translatte3 1s linear 2s;
+}
+.translatte4{
+    animation: translatte4 1s linear 3s;
+}
+
+
+.tr1{
+    animation: tr1 1s linear;
+}
+.tr2{
+    animation: tr2 1s linear 1s;
+}
+.tr3{
+    animation: tr3 1s linear 2s;
+}
+.tr4{
+    animation: tr4 1s linear 3s;
+}
+
+.wz1{
+    animation: wz1 1s linear;
+}
+
+.wz2{
+    animation: wz2 1s linear 1s;
+}
+
+.wz3{
+    animation: wz3 1s linear 2s;
+}
+
+.tu1{
+    animation: tu1 3s linear;
+}
+.tu2{
+    animation: tu2 3s linear;
+}
+
+@keyframes tr1 {
+    0%{transform: translateX(-3rem);opacity: 0}
+    100%{transform: translateX(0px);opacity: 1}
+}
+
+@keyframes tr2 {
+    0%{transform: translateX(-25rem);opacity: 0}
+    100%{transform: translateX(0px);opacity: 1}
+}
+
+@keyframes tr3 {
+    0%{transform: translateX(-2rem);opacity: 0}
+    100%{transform: translateX(0px);opacity: 1}
+}
+
+@keyframes tr4{
+    0%{transform: translateX(-15rem);opacity: 0}
+    100%{transform: translateX(0px);opacity: 1}
+}
+
+
+
+@keyframes translatte1 {
+    0%{transform: translateY(-30px);opacity: 0}
+    100%{transform: translateY(0px);opacity: 1}
+}
+
+@keyframes translatte2 {
+    0%{transform: translateY(-25px);opacity: 0}
+    100%{transform: translateY(0px);opacity: 1}
+}
+
+@keyframes translatte3 {
+    0%{transform: translateY(-20px);opacity: 0}
+    100%{transform: translateY(0px);opacity: 1}
+}
+
+@keyframes translatte4 {
+    0%{transform: translateY(-15px);opacity: 0}
+    100%{transform: translateY(0px);opacity: 1}
+}
+
+@keyframes wz1 {
+    0%{transform: translateX(2rem)}
+    100%{transform: translateX(0px)}
+}
+
+@keyframes wz2 {
+    0%{transform: translateX(2rem)}
+    100%{transform: translateX(0px)}
+}
+
+@keyframes wz3 {
+    0%{transform: translateX(2rem)}
+    100%{transform: translateX(0px)}
+}
+
+@keyframes tu1 {
+    0%{transform: translateX(0)}
+    50%{transform: translateX(-5rem)}
+    100%{transform: translateX(0)}
+}
+@keyframes tu2 {
+    0%{transform: translateX(0)}
+    50%{transform: translateX(5rem)}
+    100%{transform: translateX(0)}
+}

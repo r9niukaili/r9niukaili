@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.pageup{
+    transform: translateY(-100%);
+}
+.pagedown{
+    transform: translateY(100%);
+}
+.hide{
+    display: none !important;
+}
+
+.page1 p{
+    text-align: center;
+    line-height: 3rem;
+}
+.page1 p:nth-child(1){
+    color: red;
+}
+.page1 p:nth-child(2){
+    color: yellow;
+}
+.page1 p:nth-child(3){
+    color: blueviolet;
+}
+.page1 p:nth-child(4){
+    color: lawngreen;
+}
+
+.page{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: all 1s linear;
+    background: url("../img/bg3.jpg");
+}
+.page2{
+    height: 100%;
+}
+.page2 .top{
+    width: 10rem;
+    float: left;
+    margin-top: 1rem;
+}
+.page2 p{
+    float: left;
+    font-size: 0.55rem;
+}
+.page2 p:nth-child(1){
+    color: red;
+}
+.page2 p:nth-child(2){
+    color: yellow;
+}
+.page2 p:nth-child(3){
+    color: deepskyblue;
+}
+.page2 p:nth-child(4){
+    color: lawngreen;
+}
+.page2 h4{
+    font-size: 0.55rem;
+    text-align: right;
+    color: grey;
+}
+
+
+.page2 .zhong{
+    width: 3rem;
+   margin: 1rem auto;
+}
+.page2 li{
+    font-size: 0.55rem;
+    line-height: 1rem;
+}
+.page2 li:nth-child(1){
+    color: aqua;
+}
+.page2 li:nth-child(2){
+    color: purple;
+}
+.page2 li:nth-child(3){
+    color: mediumpurple;
+}
+
+.page2 .footer .left{
+    width: 2rem;
+    float: left;
+}
+.page2 .footer .left li{
+    font-size: 0.4rem;
+}
+.page2 .footer .right{
+    width: 4rem;
+    float: left;
+}
+.page2 .footer .right li{
+    font-size: 0.4rem;
+}
+
+.page3 h4{
+    font-size: 0.55rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.page3 li{
+    font-size: 0.58rem;
+    margin: 1rem 0 0 1rem;
+}
+.page3 li:nth-child(1){
+    color: aqua;
+}
+.page3 li:nth-child(2){
+    color: purple;
+}
+.page3 li:nth-child(3){
+    color: mediumpurple;
+}
+.page3 .tu{
+    width: 6rem;
+    height: 6rem;
+}
+.page3 .tu img{
+    width: 3rem;
+    height: 3rem;
+    float: left;
+}
+
+
+
+.page4 h4{
+    font-size: 0.55rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.page4 .pic1{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 0.55rem;
+    text-align: center;
+    line-height: 1.5rem;
+    background: deepskyblue;
+}
+.page4 .pic2{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 0.55rem;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-left: 2.4rem;
+    background: deepskyblue;
+}
+.page4 .pic3{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 0.55rem;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-left: 4.8rem;
+    background: deepskyblue;
+}
+.page4 .pian  img:nth-child(1){
+    width: 3rem;
+    height: 3rem;
+}
+.page4 .pian img:nth-child(2) {
+    width: 3rem;
+    height:3rem;
+}
+
+.page5{
+    position: relative;
+}
+.page5 p{
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 2rem;
+}
+.page5 .xia{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
